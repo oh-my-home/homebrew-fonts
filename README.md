@@ -32,9 +32,13 @@ brew install otf-source-han-serif-k  # Install Source Han Serif - Language Speci
 Every font has an exact version.
 
 Most `conflicts_with` fonts are actually duplicate fonts due to different formats of the same font.
+(Just for duplicate fonts against those fonts from `homebrew/cask-fonts` tap.)
 
 There is a `license` method for a formula but not for a cask yet.
 The `license` or `free_license` method within the `caveats` method is used as a temporary substitute for the casks.
+
+Some fonts are repackacked by different formats in order to reduce the download size or make the distribution possible.
+Please let me know if there are copyright issues.
 
 ## homebrew-fonts License
 

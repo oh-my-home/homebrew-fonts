@@ -1,24 +1,24 @@
 cask "ttf-swei-sugar-cjk-tc" do
   version "1.061"
-  sha256 "6d4304a1331ef3cca8375323caba6736474a021f2c13ee9fb409dcf450100469"
+  sha256 "cb51d35c33e1a93b6539f8cde41b6430200565c718be3e2df1a523a301302728"
 
-  url "https://github.com/max32002/swei-sugar/archive/refs/tags/#{version}.zip",
-    verified: "github.com/max32002/swei-sugar/"
+  url "https://github.com/oh-my-home/swei-sugar/releases/download/#{version}/swei-sugar-cjk-tc-#{version}.zip",
+    verified: "github.com/oh-my-home/swei-sugar/"
   name "Swei Sugar CJK TC"
   homepage "https://github.com/max32002/swei-sugar"
 
   livecheck do
-    url "https://github.com/max32002/swei-sugar"
+    url "https://github.com/oh-my-home/swei-sugar"
     strategy :github_latest
   end
 
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-Black.ttf"
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-Bold.ttf"
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-ExtraLight.ttf"
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-Light.ttf"
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-Medium.ttf"
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-Regular.ttf"
-  font "swei-sugar-#{version}/CJK TC/SweiSugarCJKtc-SemiBold.ttf"
+  font "CJK TC/SweiSugarCJKtc-Black.ttf"
+  font "CJK TC/SweiSugarCJKtc-Bold.ttf"
+  font "CJK TC/SweiSugarCJKtc-ExtraLight.ttf"
+  font "CJK TC/SweiSugarCJKtc-Light.ttf"
+  font "CJK TC/SweiSugarCJKtc-Medium.ttf"
+  font "CJK TC/SweiSugarCJKtc-Regular.ttf"
+  font "CJK TC/SweiSugarCJKtc-SemiBold.ttf"
 
   caveats do
     free_license "https://github.com/max32002/swei-sugar/raw/#{version}/SIL_Open_Font_License_1.1.txt"
