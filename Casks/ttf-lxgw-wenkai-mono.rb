@@ -4,7 +4,7 @@ cask "ttf-lxgw-wenkai-mono" do
 
   url "https://github.com/oh-my-home/lxgw-wenkai/releases/download/v#{version}/lxgw-wenkai-mono-#{version}.zip",
     verified: "github.com/oh-my-home/lxgw-wenkai/"
-  name "LXGW WenKai Mono / 霞鹜文楷 Mono"
+  name "LXGW WenKai Mono / 霞鹜文楷等宽"
   homepage "https://github.com/lxgw/LxgwWenKai"
 
   livecheck do
