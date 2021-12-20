@@ -1,6 +1,6 @@
 cask "ttf-lxgw-wenkai-mono" do
-  version "1.110"
-  sha256 "3ff8b2941c6bc4c89acc59b259754b69c2387e7f6eddb393ddff68f15bcfbdb1"
+  version "1.111"
+  sha256 "342b242aad9fedbe64cf1fa85020fd4e5063fba0af6d64fd8a4188c5bb219e25"
 
   url "https://github.com/oh-my-home/lxgw-wenkai/releases/download/v#{version}/lxgw-wenkai-mono-#{version}.zip",
     verified: "github.com/oh-my-home/lxgw-wenkai/"
