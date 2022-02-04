@@ -9,8 +9,9 @@ cask "otf-source-han-sans-hc" do
   homepage "https://github.com/adobe-fonts/source-han-sans"
 
   livecheck do
-    url "https://github.com/adobe-fonts/source-han-sans"
-    strategy :github_latest
+    url "https://github.com/adobe-fonts/source-han-sans/releases/latest"
+    strategy :page_match
+    regex(%r{tag/(\d+(?:\.\d+)*)}i)
   end
 
   font "OTF/TraditionalChineseHK/SourceHanSansHC-Bold.otf"

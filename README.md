@@ -40,6 +40,8 @@ The `license` or `free_license` method within the `caveats` method is used as a 
 Some fonts are repackacked by different formats in order to reduce the download size or make the distribution possible.
 Please let me know if there are copyright issues.
 
+The code of livecheck for Source Han Sans fonts and Source Han Serif fonts is taken from [iandol/homebrew-adobe-fonts](https://github.com/iandol/homebrew-adobe-fonts).
+
 ## homebrew-fonts License
 
 Code is under the [BSD 2 Clause license](LICENSE.txt).

@@ -1,16 +1,17 @@
 cask "otf-source-han-serif-tc" do
-  version "2.000"
-  sha256 "067b56454ada2f34e641fbfea5117b2a7e7826c0f548df36871cba96dd623f43"
+  version "2.001"
+  sha256 "6a010b4fafa3673c47ce48e2fdaeb481ba9884296d7012ddf359f8c4e04a44de"
 
-  url "https://github.com/adobe-fonts/source-han-serif/releases/download/#{version}R/SourceHanSerifTC.zip",
+  url "https://github.com/adobe-fonts/source-han-serif/releases/download/#{version}R/10_SourceHanSerifTC.zip",
     verified: "github.com/adobe-fonts/source-han-serif/"
   name "Source Han Serif TC"
   desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
   homepage "https://github.com/adobe-fonts/source-han-serif"
 
   livecheck do
-    url "https://github.com/adobe-fonts/source-han-serif"
-    strategy :github_latest
+    url "https://github.com/adobe-fonts/source-han-serif/releases/latest"
+    strategy :page_match
+    regex(%r{tag/(\d+(?:\.\d+)*)}i)
   end
 
   font "OTF/TraditionalChinese/SourceHanSerifTC-Bold.otf"
@@ -18,8 +19,8 @@ cask "otf-source-han-serif-tc" do
   font "OTF/TraditionalChinese/SourceHanSerifTC-Heavy.otf"
   font "OTF/TraditionalChinese/SourceHanSerifTC-Light.otf"
   font "OTF/TraditionalChinese/SourceHanSerifTC-Medium.otf"
-  font "OTF/TraditionalChinese/SourceHanSerifTC-Normal.otf"
   font "OTF/TraditionalChinese/SourceHanSerifTC-Regular.otf"
+  font "OTF/TraditionalChinese/SourceHanSerifTC-SemiBold.otf"
 
   caveats do
     free_license "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/#{version}R/LICENSE.txt"
