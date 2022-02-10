@@ -1,6 +1,6 @@
 cask "ttf-andika" do
-  version "6.001"
-  sha256 "efb4879bb78f256ac821ad621a7fc7925aad309bb43c56820b4ccbb51e9a111c"
+  version "6.101"
+  sha256 "8595a879054a540b24fa942a2621efcd194a9f6468d9cf2541ae693e496b8dd4"
 
   url "https://github.com/silnrsi/font-andika/releases/download/v#{version}/Andika-#{version}.zip",
     verified: "github.com/silnrsi/font-andika/"

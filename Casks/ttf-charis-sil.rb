@@ -1,6 +1,6 @@
 cask "ttf-charis-sil" do
-  version "6.001"
-  sha256 "850df14e9024790e061a406715693ff39489dd071ea583b3258bdeba8384ebe8"
+  version "6.101"
+  sha256 "2de585f4517636d18039f1dc082258dfb89262d7a7feea2526fb21c0cc69131f"
 
   url "https://github.com/silnrsi/font-charis/releases/download/v#{version}/CharisSIL-#{version}.zip",
     verified: "github.com/silnrsi/font-charis/"
