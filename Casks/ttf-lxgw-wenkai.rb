@@ -1,10 +1,11 @@
 cask "ttf-lxgw-wenkai" do
-  version "1.112"
-  sha256 "785fdfdcbe41a3e883cce582c8b8c7b1cd4d3e3df338538bf8bd2b5bcca0bef1"
+  version "1.120"
+  sha256 "2801575b7d9e5b2efaf5e571e273845a1e9c0e00381247bd4a3f8aa1566c6196"
 
   url "https://github.com/oh-my-home/lxgw-wenkai/releases/download/v#{version}/lxgw-wenkai-#{version}.zip",
     verified: "github.com/oh-my-home/lxgw-wenkai/"
-  name "LXGW WenKai / 霞鹜文楷"
+  name "LXGW WenKai"
+  name "霞鹜文楷"
   homepage "https://github.com/lxgw/LxgwWenKai"
 
   livecheck do

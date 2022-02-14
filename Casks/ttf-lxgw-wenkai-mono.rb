@@ -1,10 +1,11 @@
 cask "ttf-lxgw-wenkai-mono" do
-  version "1.112"
-  sha256 "333e8ec5f97d8715be5da4f16c193a3146352b5d9bcb649e0418701b84281ac0"
+  version "1.120"
+  sha256 "f1389ad24a6c8f882fcfa8428034754dae3204ebb09bfa04d758a5d9b946849f"
 
   url "https://github.com/oh-my-home/lxgw-wenkai/releases/download/v#{version}/lxgw-wenkai-mono-#{version}.zip",
     verified: "github.com/oh-my-home/lxgw-wenkai/"
-  name "LXGW WenKai Mono / 霞鹜文楷等宽"
+  name "LXGW WenKai Mono"
+  name "霞鹜文楷等宽"
   homepage "https://github.com/lxgw/LxgwWenKai"
 
   livecheck do
