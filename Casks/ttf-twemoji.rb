@@ -1,8 +1,8 @@
 cask "ttf-twemoji" do
-  version "13.1.0"
-  sha256 "831b79340af6ee0042ee2f646c9b8954d676c408de75cf2d79f022cea5c937db"
+  version "14.0.2"
+  sha256 "cfa59e280317f7a6d05dc062a654104f8fab4c301720401daaec8e7f16bac9f6"
 
-  _fedrel = "2.fc35"
+  _fedrel = "1.fc37"
 
   url "https://github.com/oh-my-home/twitter-twemoji-fonts/releases/download/#{version}-#{_fedrel}/twitter-twemoji-fonts-#{version}-#{_fedrel}.noarch.zip",
     verified: "github.com/oh-my-home/twitter-twemoji-fonts/"
