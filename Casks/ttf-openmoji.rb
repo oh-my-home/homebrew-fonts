@@ -1,6 +1,6 @@
 cask "ttf-openmoji" do
-  version "13.1.0"
-  sha256 "85587ae43d98dfa1a0c23622243e0692c7b3566cbd761e7370036c34321cbe76"
+  version "14.0.0"
+  sha256 "7e8d72de29216cd7b0f889dd82982baf2f2f11842ab8018ecac88bb43a109585"
 
   url "https://github.com/hfg-gmuend/openmoji/releases/download/#{version}/openmoji-font.zip",
     verified: "github.com/hfg-gmuend/openmoji/"
