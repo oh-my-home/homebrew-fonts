@@ -1,10 +1,11 @@
 cask "ttf-sono" do
-  version "2.1"
-  sha256 "7cb00416d5f023941e8d2bbc0637b046bedb59aa0221e1c3eed35f3f40a39f5f"
+  version "2.112"
+  sha256 "24edbeb4417dd415bc4574c3f9abf06c1811c95955b337481463060b729be25d"
 
-  url "https://github.com/sursly/sono/releases/download/v#{version}/sono-v#{version.major}.zip",
+  url "https://github.com/sursly/sono/archive/refs/tags/v#{version}.zip",
     verified: "github.com/sursly/sono/"
   name "Sono"
+  name "Sono Sans"
   homepage "https://github.com/sursly/sono"
 
   livecheck do
@@ -12,20 +13,20 @@ cask "ttf-sono" do
     strategy :github_latest
   end
 
-  font "sono-v2/ttf/Sono-Bold.ttf"
-  font "sono-v2/ttf/Sono-ExtraBold.ttf"
-  font "sono-v2/ttf/Sono-ExtraLight.ttf"
-  font "sono-v2/ttf/Sono-Light.ttf"
-  font "sono-v2/ttf/Sono-Medium.ttf"
-  font "sono-v2/ttf/Sono-Regular.ttf"
-  font "sono-v2/ttf/Sono-SansBold.ttf"
-  font "sono-v2/ttf/Sono-SansExtraBold.ttf"
-  font "sono-v2/ttf/Sono-SansExtraLight.ttf"
-  font "sono-v2/ttf/Sono-SansLight.ttf"
-  font "sono-v2/ttf/Sono-SansMedium.ttf"
-  font "sono-v2/ttf/Sono-SansRegular.ttf"
-  font "sono-v2/ttf/Sono-SansSemiBold.ttf"
-  font "sono-v2/ttf/Sono-SemiBold.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-Bold.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-ExtraBold.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-ExtraLight.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-Light.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-Medium.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-Regular.ttf"
+  font "sono-#{version}/fonts/ttf/Sono-SemiBold.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-Bold.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-ExtraBold.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-ExtraLight.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-Light.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-Medium.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-Regular.ttf"
+  font "sono-#{version}/fonts/ttf/SonoSans-SemiBold.ttf"
 
   caveats do
     free_license "https://github.com/sursly/sono/raw/v#{version}/OFL.txt"

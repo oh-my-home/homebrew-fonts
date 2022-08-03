@@ -1,8 +1,8 @@
 cask "ttf-sono-variable" do
-  version "2.1"
-  sha256 "7cb00416d5f023941e8d2bbc0637b046bedb59aa0221e1c3eed35f3f40a39f5f"
+  version "2.112"
+  sha256 "24edbeb4417dd415bc4574c3f9abf06c1811c95955b337481463060b729be25d"
 
-  url "https://github.com/sursly/sono/releases/download/v#{version}/sono-v#{version.major}.zip",
+  url "https://github.com/sursly/sono/archive/refs/tags/v#{version}.zip",
     verified: "github.com/sursly/sono/"
   name "Sono Variable"
   homepage "https://github.com/sursly/sono"
@@ -12,7 +12,7 @@ cask "ttf-sono-variable" do
     strategy :github_latest
   end
 
-  font "sono-v2/variable/Sono-Variable.ttf"
+  font "sono-#{version}/fonts/variable/Sono[MONO,wght].ttf"
 
   caveats do
     free_license "https://github.com/sursly/sono/raw/v#{version}/OFL.txt"
