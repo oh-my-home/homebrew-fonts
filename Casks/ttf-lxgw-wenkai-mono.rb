@@ -1,6 +1,6 @@
 cask "ttf-lxgw-wenkai-mono" do
-  version "1.240"
-  sha256 "2a29ce82e4fffff86489ef08401a84d929a7e74c3e82b9405390dceb5334fefc"
+  version "1.245.1"
+  sha256 "60229ee4118fdfaf71525a5177e449d0a63d1c90d151e7e849e01adf90d06d33"
 
   url "https://github.com/lxgw/LxgwWenKai/releases/download/v#{version}/lxgw-wenkai-v#{version}.zip",
     verified: "github.com/lxgw/LxgwWenKai/"
@@ -18,6 +18,6 @@ cask "ttf-lxgw-wenkai-mono" do
   font "lxgw-wenkai-v#{version}/LXGWWenKaiMono-Regular.ttf"
 
   caveats do
-    free_license "https://github.com/lxgw/LxgwWenKai/raw/v#{version}/License.txt"
+    free_license "https://github.com/lxgw/LxgwWenKai/raw/v#{version}/OFL.txt"
   end
 end
