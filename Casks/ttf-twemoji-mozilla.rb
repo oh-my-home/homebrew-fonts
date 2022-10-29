@@ -1,8 +1,8 @@
 cask "ttf-twemoji-mozilla" do
-  version "0.6.0"
-  sha256 "e52ebdb734105d3d634936b5ee436b2b91bed9c0200f0e9c84c7d663224610c7"
+  version "0.7.0"
+  sha256 "6d90152ee0d29e82fe2a87793af5aa4b7ad13e6538360889e141e81ed299ee8e"
 
-  url "https://github.com/mozilla/twemoji-colr/releases/download/v#{version}/TwemojiMozilla.ttf",
+  url "https://github.com/mozilla/twemoji-colr/releases/download/v#{version}/Twemoji.Mozilla.ttf",
     verified: "github.com/mozilla/twemoji-colr/"
   name "Twemoji Mozilla"
   homepage "https://github.com/mozilla/twemoji-colr"
@@ -12,7 +12,7 @@ cask "ttf-twemoji-mozilla" do
     strategy :github_latest
   end
 
-  font "TwemojiMozilla.ttf"
+  font "Twemoji.Mozilla.ttf"
 
   caveats do
     license "https://github.com/mozilla/twemoji-colr/raw/v#{version}/LICENSE.md"
