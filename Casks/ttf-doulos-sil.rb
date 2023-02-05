@@ -1,6 +1,6 @@
 cask "ttf-doulos-sil" do
-  version "6.101"
-  sha256 "daea5cc79767c43029b025603402ccb51c7812a22772db3c18ae8526ef670c58"
+  version "6.200"
+  sha256 "a7ad76326c126b2748297b987a634a56f7e42cd45bc3ff2c90a7909cbb164223"
 
   url "https://github.com/silnrsi/font-doulos/releases/download/v#{version}/DoulosSIL-#{version}.zip",
     verified: "github.com/silnrsi/font-doulos/"
