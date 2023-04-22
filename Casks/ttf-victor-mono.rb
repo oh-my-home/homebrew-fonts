@@ -1,6 +1,6 @@
 cask "ttf-victor-mono" do
-  version "1.5.4"
-  sha256 "1d0d51443846800c88536ab5a0e5cfb3557ad7d3fa6d355193953dd6c98c40b6"
+  version "1.5.5"
+  sha256 "34288e16ca4834efc721aaf0c6f4ef3d86a85a5a791769787b50853ec21afd3b"
 
   url "https://github.com/rubjo/victor-mono/raw/v#{version}/public/VictorMonoAll.zip",
     verified: "github.com/rubjo/victor-mono/"
