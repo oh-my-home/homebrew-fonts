@@ -1,6 +1,6 @@
 cask "otf-intel-one-mono" do
-  version "1.0.0"
-  sha256 "471bcbb966625f8a238f0d638cbc9622ac16d513064a124196798f62bc4c81ac"
+  version "1.2.0"
+  sha256 "5675c8696efb7515ef5c1d55af4d714500cc10296dc3317f44ca868005a7bb93"
 
   url "https://github.com/intel/intel-one-mono/releases/download/V#{version}/otf.zip",
     verified: "github.com/intel/intel-one-mono/"
@@ -22,6 +22,6 @@ cask "otf-intel-one-mono" do
   font "otf/intelone-mono-font-family-regular.otf"
 
   caveats do
-    free_license "https://github.com/intel/intel-one-mono/blob/V#{version}/license"
+    free_license "https://github.com/intel/intel-one-mono/raw/V#{version}/license"
   end
 end
