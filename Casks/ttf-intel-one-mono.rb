@@ -1,6 +1,6 @@
 cask "ttf-intel-one-mono" do
-  version "1.2.0"
-  sha256 "91acf40de3de3bc9ef295a2760986ce5fdbea6cff95e8e69b23835868c736a25"
+  version "1.2.1"
+  sha256 "0d5fcf4fe3fe186abf7a34b9731e4436e0b2fa2884df600c3a2af0b9308fdef6"
 
   url "https://github.com/intel/intel-one-mono/releases/download/V#{version}/ttf.zip",
     verified: "github.com/intel/intel-one-mono/"
