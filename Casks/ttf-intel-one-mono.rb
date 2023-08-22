@@ -1,10 +1,10 @@
 cask "ttf-intel-one-mono" do
-  version "1.2.1"
-  sha256 "0d5fcf4fe3fe186abf7a34b9731e4436e0b2fa2884df600c3a2af0b9308fdef6"
+  version "1.3.0"
+  sha256 "11e51310cba84c72a6b8ee548f48e3883445f6dee3c5b232e399d35a8ce581f7"
 
   url "https://github.com/intel/intel-one-mono/releases/download/V#{version}/ttf.zip",
     verified: "github.com/intel/intel-one-mono/"
-  name "IntelOne Mono"
+  name "Intel One Mono"
   homepage "https://github.com/intel/intel-one-mono"
 
   livecheck do
@@ -12,16 +12,16 @@ cask "ttf-intel-one-mono" do
     strategy :github_latest
   end
 
-  font "ttf/intelone-mono-font-family-bold.ttf"
-  font "ttf/intelone-mono-font-family-bolditalic.ttf"
-  font "ttf/intelone-mono-font-family-italic.ttf"
-  font "ttf/intelone-mono-font-family-light.ttf"
-  font "ttf/intelone-mono-font-family-lightitalic.ttf"
-  font "ttf/intelone-mono-font-family-medium.ttf"
-  font "ttf/intelone-mono-font-family-mediumitalic.ttf"
-  font "ttf/intelone-mono-font-family-regular.ttf"
+  font "ttf/IntelOneMono-Bold.ttf"
+  font "ttf/IntelOneMono-BoldItalic.ttf"
+  font "ttf/IntelOneMono-Italic.ttf"
+  font "ttf/IntelOneMono-Light.ttf"
+  font "ttf/IntelOneMono-LightItalic.ttf"
+  font "ttf/IntelOneMono-Medium.ttf"
+  font "ttf/IntelOneMono-MediumItalic.ttf"
+  font "ttf/IntelOneMono-Regular.ttf"
 
   caveats do
-    free_license "https://github.com/intel/intel-one-mono/raw/V#{version}/license"
+    free_license "https://github.com/intel/intel-one-mono/raw/V#{version}/OFL.txt"
   end
 end
