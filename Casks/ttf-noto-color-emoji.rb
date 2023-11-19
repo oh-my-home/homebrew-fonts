@@ -1,8 +1,8 @@
 cask "ttf-noto-color-emoji" do
-  version "2.034"
-  sha256 "bf2a8506b80614ba190a34c7b037af1269a7d614fe9f3b613cc15cdeec6f814b"
+  version "2.040"
+  sha256 "fcaf0d31641306144a647a5b2f8396eccc0bc8de94f0707db072974dc5aa5a70"
 
-  url "https://github.com/googlefonts/noto-emoji/raw/v#{version}/fonts/NotoColorEmoji.ttf",
+  url "https://github.com/googlefonts/noto-emoji/raw/v#{version}/fonts/Noto-COLRv1.ttf",
     verified: "github.com/googlefonts/noto-emoji/"
   name "Noto Color Emoji"
   homepage "https://github.com/googlefonts/noto-emoji"
@@ -14,7 +14,7 @@ cask "ttf-noto-color-emoji" do
 
   conflicts_with cask: "font-noto-color-emoji"
 
-  font "NotoColorEmoji.ttf"
+  font "Noto-COLRv1.ttf"
 
   caveats do
     free_license "https://github.com/googlefonts/noto-emoji/raw/v#{version}/LICENSE"
