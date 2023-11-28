@@ -1,6 +1,6 @@
 cask "ttf-noto-color-emoji" do
-  version "2.040"
-  sha256 "fcaf0d31641306144a647a5b2f8396eccc0bc8de94f0707db072974dc5aa5a70"
+  version "2.041"
+  sha256 "89fd335b928ecb47440f18bb52f65d6ca4edf17e49f014b0d903929baa9411f5"
 
   url "https://github.com/googlefonts/noto-emoji/raw/v#{version}/fonts/Noto-COLRv1.ttf",
     verified: "github.com/googlefonts/noto-emoji/"
