@@ -1,10 +1,10 @@
-cask "ttf-ubuntu-mono-variable" do
-  version "1.002"
-  sha256 "9093955ef4b82e101a159c79f28d276e0eddf773e783dae2d805b62bf1140294"
+cask "ttf-ubuntu-sans-mono-variable" do
+  version "1.004"
+  sha256 "0a95bfde520698d298beaad180f7551155b566595ada0d29bd98ad6380a070f8"
 
-  url "https://github.com/canonical/UbuntuMono-fonts/releases/download/v#{version}/UbuntuMono-fonts-#{version}.zip",
+  url "https://github.com/canonical/UbuntuMono-fonts/releases/download/v#{version}/UbuntuSansMono-fonts-v#{version}.zip",
     verified: "github.com/canonical/UbuntuMono-fonts/"
-  name "Ubuntu Mono"
+  name "Ubuntu Sans Mono"
   homepage "https://github.com/canonical/UbuntuMono-fonts"
 
   livecheck do
@@ -14,8 +14,8 @@ cask "ttf-ubuntu-mono-variable" do
 
   conflicts_with cask: ["font-ubuntu", "font-ubuntu-mono", "ttf-ubuntu-font-family"]
 
-  font "UbuntuMono-fonts-#{version}/variable/UbuntuMono-Italic[wght].ttf"
-  font "UbuntuMono-fonts-#{version}/variable/UbuntuMono[wght].ttf"
+  font "variable/UbuntuSansMono-Italic[wght].ttf"
+  font "variable/UbuntuSansMono[wght].ttf"
 
   caveats do
     free_license "https://github.com/canonical/UbuntuMono-fonts/raw/v#{version}/LICENCE.txt"

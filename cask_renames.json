@@ -1,0 +1,8 @@
+{
+  "otf-ubuntu": "otf-ubuntu-sans",
+  "otf-ubuntu-mono": "otf-ubuntu-sans-mono",
+  "ttf-ubuntu": "ttf-ubuntu-sans",
+  "ttf-ubuntu-mono": "ttf-ubuntu-sans-mono",
+  "ttf-ubuntu-mono-variable": "ttf-ubuntu-sans-mono-variable",
+  "ttf-ubuntu-variable": "ttf-ubuntu-sans-variable"
+}
