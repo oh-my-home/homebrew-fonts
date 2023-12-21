@@ -1,6 +1,6 @@
 cask "ttf-openmoji" do
-  version "14.0.0"
-  sha256 "7e8d72de29216cd7b0f889dd82982baf2f2f11842ab8018ecac88bb43a109585"
+  version "15.0.0"
+  sha256 "9c157abb27203a3e2f13d5e000c8773015e3e373d3da3c263c1ed917cacbb6de"
 
   url "https://github.com/hfg-gmuend/openmoji/releases/download/#{version}/openmoji-font.zip",
     verified: "github.com/hfg-gmuend/openmoji/"
@@ -12,8 +12,8 @@ cask "ttf-openmoji" do
     strategy :github_latest
   end
 
-  font "OpenMoji-Black.ttf"
-  font "OpenMoji-Color.ttf"
+  font "OpenMoji-black-glyf/OpenMoji-black-glyf.ttf"
+  font "OpenMoji-color-sbix/OpenMoji-color-sbix.ttf"
 
   caveats do
     license "https://raw.githubusercontent.com/hfg-gmuend/openmoji/#{version}/LICENSE.txt"
