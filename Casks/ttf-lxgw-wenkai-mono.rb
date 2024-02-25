@@ -1,6 +1,6 @@
 cask "ttf-lxgw-wenkai-mono" do
-  version "1.300"
-  sha256 "5b34ad01ec22cdcb8e1c2661e293d8db93d14f597f22be1c0cbb761fa4c7c67d"
+  version "1.320"
+  sha256 "263952bf521911e5623aa14c2abd85fa068a4f090d8bad26b4b12ec4c5696a4d"
 
   url "https://github.com/lxgw/LxgwWenKai/releases/download/v#{version}/lxgw-wenkai-v#{version}.zip",
     verified: "github.com/lxgw/LxgwWenKai/"
