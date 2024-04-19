@@ -1,32 +1,32 @@
 cask "ttf-ubuntu-sans-mono" do
-  version "1.004"
-  sha256 "0a95bfde520698d298beaad180f7551155b566595ada0d29bd98ad6380a070f8"
+  version "1.006"
+  sha256 "8c43ba57ee00d3d0226ee4de839e9b419321ac5a6d5fcd59c813e70873d99fc1"
 
-  url "https://github.com/canonical/UbuntuMono-fonts/releases/download/v#{version}/UbuntuSansMono-fonts-v#{version}.zip",
-    verified: "github.com/canonical/UbuntuMono-fonts/"
+  url "https://github.com/canonical/Ubuntu-Sans-Mono-fonts/releases/download/v#{version}/UbuntuSansMono-fonts-#{version}.zip",
+    verified: "github.com/canonical/Ubuntu-Sans-Mono-fonts/"
   name "Ubuntu Sans Mono"
-  homepage "https://github.com/canonical/UbuntuMono-fonts"
+  homepage "https://github.com/canonical/Ubuntu-Sans-Mono-fonts"
 
   livecheck do
-    url "https://github.com/canonical/UbuntuMono-fonts"
+    url "https://github.com/canonical/Ubuntu-Sans-Mono-fonts"
     strategy :github_latest
   end
 
   conflicts_with cask: ["font-ubuntu", "font-ubuntu-mono", "ttf-ubuntu-font-family"]
 
-  font "ttf/UbuntuSansMono-Bold.ttf"
-  font "ttf/UbuntuSansMono-BoldItalic.ttf"
-  font "ttf/UbuntuSansMono-ExtraLight.ttf"
-  font "ttf/UbuntuSansMono-Italic.ttf"
-  font "ttf/UbuntuSansMono-Light.ttf"
-  font "ttf/UbuntuSansMono-Medium.ttf"
-  font "ttf/UbuntuSansMono-MediumItalic.ttf"
-  font "ttf/UbuntuSansMono-Regular.ttf"
-  font "ttf/UbuntuSansMono-SemiBold.ttf"
-  font "ttf/UbuntuSansMono-SemiBoldItalic.ttf"
-  font "ttf/UbuntuSansMono-Thin.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-Bold.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-BoldItalic.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-ExtraLight.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-Italic.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-Light.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-Medium.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-MediumItalic.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-Regular.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-SemiBold.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-SemiBoldItalic.ttf"
+  font "UbuntuSansMono-fonts-#{version}/ttf/UbuntuSansMono-Thin.ttf"
 
   caveats do
-    free_license "https://github.com/canonical/UbuntuMono-fonts/raw/v#{version}/LICENCE.txt"
+    free_license "https://github.com/canonical/Ubuntu-Sans-Mono-fonts/raw/v#{version}/LICENCE.txt"
   end
 end
