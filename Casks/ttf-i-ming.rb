@@ -1,6 +1,6 @@
 cask "ttf-i-ming" do
-  version "8.00"
-  sha256 "b71321a6da01f48341c89be23bc0bf19565c94de4b154ced841b377241e2047d"
+  version "8.10"
+  sha256 "c444a131156e01832f6dd029e84a9372f2bca6b98e8ee269b0591bf4a5bc61ce"
 
   url "https://github.com/oh-my-home/i.ming/releases/download/#{version}/i.ming-#{version}.zip",
     verified: "github.com/oh-my-home/i.ming/"
