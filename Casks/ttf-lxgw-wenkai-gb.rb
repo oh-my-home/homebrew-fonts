@@ -1,6 +1,6 @@
 cask "ttf-lxgw-wenkai-gb" do
-  version "1.321"
-  sha256 "7c2c46290807945bd3e407ef6dc9d07fc79668ea74bb8ea18b69a68e65e9de93"
+  version "1.330"
+  sha256 "4b842c2a12e6017f0e4495a12a364aefe1dd091edd8533c61a8518a8d1a2ffff"
 
   url "https://github.com/lxgw/LxgwWenkaiGB/releases/download/v#{version}/lxgw-wenkai-gb-v#{version}.zip",
     verified: "github.com/lxgw/LxgwWenkaiGB/"
