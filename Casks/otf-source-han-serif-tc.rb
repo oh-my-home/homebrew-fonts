@@ -1,6 +1,6 @@
 cask "otf-source-han-serif-tc" do
-  version "2.002"
-  sha256 "87ac20377b3a9906efc6af658cc10fd29b4228be053a61bca79946881535bd5f"
+  version "2.003"
+  sha256 "c3f741e2da0d553ef729404a7be2febb3679245a918a6f47994cd863ddb268b3"
 
   url "https://github.com/adobe-fonts/source-han-serif/releases/download/#{version}R/10_SourceHanSerifTC.zip",
     verified: "github.com/adobe-fonts/source-han-serif/"
