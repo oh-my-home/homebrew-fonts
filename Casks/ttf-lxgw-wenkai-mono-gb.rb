@@ -1,6 +1,6 @@
 cask "ttf-lxgw-wenkai-mono-gb" do
-  version "1.330"
-  sha256 "4b842c2a12e6017f0e4495a12a364aefe1dd091edd8533c61a8518a8d1a2ffff"
+  version "1.500"
+  sha256 "36440525c599fa4134ec247d0f9814db622336b943a1fbad2c2785b3125605c0"
 
   url "https://github.com/lxgw/LxgwWenkaiGB/releases/download/v#{version}/lxgw-wenkai-gb-v#{version}.zip",
     verified: "github.com/lxgw/LxgwWenkaiGB/"
@@ -13,8 +13,8 @@ cask "ttf-lxgw-wenkai-mono-gb" do
     strategy :github_latest
   end
 
-  font "lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Bold.ttf"
   font "lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Light.ttf"
+  font "lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Medium.ttf"
   font "lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Regular.ttf"
 
   caveats do
